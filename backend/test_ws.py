@@ -3,9 +3,10 @@ import websockets
 import json
 
 async def test():
-    uri = "ws://127.0.0.1:8000/ws"
+    WS_URL = "wss://convoweave-backend.onrender.com/ws"
 
-    async with websockets.connect(uri) as websocket:
+
+    async with websockets.connect(WS_URL) as websocket:
         data = {
             "engagement": 0.9,
             "confusion": 0.1,
