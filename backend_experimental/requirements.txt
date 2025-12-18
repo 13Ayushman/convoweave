@@ -1,0 +1,14 @@
+fastapi
+uvicorn
+websockets
+pydantic
+python-dotenv
+python-multipart
+opencv-python
+mediapipe
+firebase-admin
+httpx
+numpy
+groq
+gTTS
+
